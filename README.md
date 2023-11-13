@@ -42,4 +42,28 @@
   - 쿠폰 사용 api - 결제 api 와 연동
 <hr>
 
+# 🎈REST API 설계
+
+## 🥘음식 관련 API
+
+### ✔️단일 음식 등록
+- **Endpoint**: `/foods`
+- **Method**: `POST`
+- **Description**: 새로운 음식을 등록합니다.
+
+### ✔️단일 음식 조회
+- **Endpoint**: `/foods/{id}`
+- **Method**: `GET`
+- **Description**: 특정 ID의 음식 상세 정보를 조회합니다.
+
+### ✔️단일 음식 수정
+- **Endpoint**: `/foods/{id}`
+- **Method**: `PUT`
+- **Description**: 기존 음식의 정보를 수정합니다.
+
+### ✔️단일 음식 삭제
+- **Endpoint**: `/foods/{id}`
+- **Method**: `DELETE`
+- **Description**: 특정 ID의 음식을 삭제합니다.
+
 추후 추가로 더 upload .. 
