@@ -49,21 +49,21 @@
 ### ✔️단일 음식 등록
 - **Endpoint**: `/foods`
 - **Method**: `POST`
-- **Description**: 새로운 음식을 등록합니다.
+- 새로운 음식을 등록.
 
 ### ✔️단일 음식 조회
 - **Endpoint**: `/foods/{id}`
 - **Method**: `GET`
-- **Description**: 특정 ID의 음식 상세 정보를 조회합니다.
+- 특정 ID의 음식 상세 정보를 조회.
 
 ### ✔️단일 음식 수정
 - **Endpoint**: `/foods/{id}`
 - **Method**: `PUT`
-- **Description**: 기존 음식의 정보를 수정합니다.
+- 기존 음식의 정보를 수정.
 
 ### ✔️단일 음식 삭제
 - **Endpoint**: `/foods/{id}`
 - **Method**: `DELETE`
-- **Description**: 특정 ID의 음식을 삭제합니다.
+- 특정 ID의 음식을 삭제.
 
 추후 추가로 더 upload .. 
