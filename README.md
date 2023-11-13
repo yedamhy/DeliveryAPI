@@ -1,4 +1,35 @@
 # DeliveryAPI
+# 🎈REST API 설계
+
+## 🥘음식 관련 API
+
+### ✔️단일 음식 등록
+- **URL Endpoint**: `/foods`
+- **Method**: `POST`
+- 새로운 음식을 등록.
+
+### ✔️단일 음식 조회
+- **URL Endpoint**: `/foods/{id}`
+- **Method**: `GET`
+- 특정 ID의 음식 상세 정보를 조회.
+
+### ✔️단일 음식 수정
+- **URL Endpoint**: `/foods/{id}`
+- **Method**: `PUT`
+- 기존 음식의 정보를 수정.
+
+### ✔️단일 음식 삭제
+- **URL Endpoint**: `/foods/{id}`
+- **Method**: `DELETE`
+- 특정 ID의 음식을 삭제.
+
+
+<hr>
+
+추후 추가로 더 upload .. 
+
+
+# DeliveryAPI
 ## user
 - 로그인 api
 - 로그아웃 api
@@ -40,30 +71,3 @@
 ## 쿠폰 
   - 쿠폰 등록 api
   - 쿠폰 사용 api - 결제 api 와 연동
-<hr>
-
-# 🎈REST API 설계
-
-## 🥘음식 관련 API
-
-### ✔️단일 음식 등록
-- **URL Endpoint**: `/foods`
-- **Method**: `POST`
-- 새로운 음식을 등록.
-
-### ✔️단일 음식 조회
-- **URL Endpoint**: `/foods/{id}`
-- **Method**: `GET`
-- 특정 ID의 음식 상세 정보를 조회.
-
-### ✔️단일 음식 수정
-- **URL Endpoint**: `/foods/{id}`
-- **Method**: `PUT`
-- 기존 음식의 정보를 수정.
-
-### ✔️단일 음식 삭제
-- **URL Endpoint**: `/foods/{id}`
-- **Method**: `DELETE`
-- 특정 ID의 음식을 삭제.
-
-추후 추가로 더 upload .. 
