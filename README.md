@@ -41,8 +41,6 @@ MariaDB에서 구현 예정
 | price      | DECIMAL(10, 2)    | 음식 가격             |
 | category   | VARCHAR(255)      | 음식의 카테고리       |
 
-이 테이블은 MariaDB에서 구현될 예정입니다. 필요에 따라 다른 데이터베이스 시스템을 사용해도 무방합니다.
-
 
 <hr>
 
