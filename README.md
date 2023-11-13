@@ -47,22 +47,22 @@
 ## 🥘음식 관련 API
 
 ### ✔️단일 음식 등록
-- **Endpoint**: `/foods`
+- **URL Endpoint**: `/foods`
 - **Method**: `POST`
 - 새로운 음식을 등록.
 
 ### ✔️단일 음식 조회
-- **Endpoint**: `/foods/{id}`
+- **URL Endpoint**: `/foods/{id}`
 - **Method**: `GET`
 - 특정 ID의 음식 상세 정보를 조회.
 
 ### ✔️단일 음식 수정
-- **Endpoint**: `/foods/{id}`
+- **URL Endpoint**: `/foods/{id}`
 - **Method**: `PUT`
 - 기존 음식의 정보를 수정.
 
 ### ✔️단일 음식 삭제
-- **Endpoint**: `/foods/{id}`
+- **URL Endpoint**: `/foods/{id}`
 - **Method**: `DELETE`
 - 특정 ID의 음식을 삭제.
 
